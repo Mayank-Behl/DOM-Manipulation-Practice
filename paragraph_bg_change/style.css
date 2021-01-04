@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  background: rgb(37, 37, 37);
+}
+
+.div_style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid wheat;
+  text-align: center;
+  min-width: 300px;
+  width: 40%;
+  margin: 10px;
+  
+}
+
+.para_style {
+  display: flex;
+  font-size: 1.3rem;
+  color: white;
+  font-family: sans-serif;
+  line-height: 1.6em;
+  padding: 10px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 5px;
+    text-shadow: 0 0 5px #FF0000, 0 0 8px #0000FF;
+    font-size: 5rem;
+}
